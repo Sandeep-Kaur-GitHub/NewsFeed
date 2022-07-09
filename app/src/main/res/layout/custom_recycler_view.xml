@@ -8,8 +8,31 @@
         android:id="@+id/textview_title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="15dp"
+        android:textColor="@color/title_color"
+        android:textSize="20sp"
+        android:textStyle="italic"
         tools:text="title" />
+    <TextView
+        android:id="@+id/textview_author"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textview_title"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="10dp"
+        android:textSize="15sp"
+        tools:text="author" />
+    <TextView
+        android:id="@+id/textview_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/textview_author"
+        android:layout_below="@id/textview_title"
+        android:layout_marginLeft="10dp"
+        android:textSize="15sp"
+        tools:text="date" />
 
     <TextView
         android:id="@+id/textview_section"
@@ -17,5 +40,8 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/textview_title"
         android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:textSize="15sp"
         tools:text="Section" />
 </RelativeLayout>

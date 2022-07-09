@@ -1,4 +1,6 @@
 <resources>
     <string name="app_name">NewsFeed</string>
     <string name="heading">Recent News</string>
+    <string name="no_news">No news is available at this moment</string>
+    <string name="noInternet">No internet connection</string>
 </resources>
